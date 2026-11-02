@@ -16,7 +16,11 @@ You need macOS 13 or later, on Apple Silicon or Intel. Open Terminal and run:
 curl -fsSL https://odilovsanjarbek.github.io/plsql | bash
 ```
 
-The command installs PLSQL IDE in **Applications** and opens it. If Oracle Instant Client is missing, it also downloads the client from Oracle to `~/oracle`. To update, close the app and run the same command again.
+The command installs PLSQL IDE in **Applications** and opens it. If Oracle Instant Client is missing, it also downloads the client from Oracle to `~/oracle`.
+
+### Update
+
+From version 0.2.0 the app offers new versions itself: a button appears in the status bar, or choose **Help → Check for Updates…**. On version 0.1.0, close the app and run the same command again.
 
 ### First logon
 
@@ -62,7 +66,11 @@ macOS 13 yoki yangiroq kerak, Apple Silicon yoki Intel. Terminalʼni oching va b
 curl -fsSL https://odilovsanjarbek.github.io/plsql | bash
 ```
 
-Buyruq PLSQL IDE ni **Applications** papkasiga oʻrnatadi va ochadi. Oracle Instant Client boʻlmasa, uni ham Oracle saytidan `~/oracle` ga yuklab oladi. Yangilash uchun ilovani yoping va xuddi shu buyruqni qayta ishga tushiring.
+Buyruq PLSQL IDE ni **Applications** papkasiga oʻrnatadi va ochadi. Oracle Instant Client boʻlmasa, uni ham Oracle saytidan `~/oracle` ga yuklab oladi.
+
+### Yangilash
+
+0.2.0 versiyadan boshlab ilova yangi versiyani oʻzi taklif qiladi: status barʼda tugma chiqadi yoki **Help → Check for Updates…** ni tanlang. 0.1.0 versiyada ilovani yoping va xuddi shu buyruqni qayta ishga tushiring.
 
 ### Birinchi ulanish
 
@@ -108,7 +116,11 @@ macOS 13 yoki yangiroq kerak, Apple Silicon yoki Intel. Terminalʼni oçing va b
 curl -fsSL https://odilovsanjarbek.github.io/plsql | bash
 ```
 
-Buyruq PLSQL IDE ni **Applications** papkasiga örnatadi va oçadi. Oracle Instant Client bölmasa, uni ham Oracle saytidan `~/oracle` ga yuklab oladi. Yangilaş uçun ilovani yoping va xuddi şu buyruqni qayta işga tuşiring.
+Buyruq PLSQL IDE ni **Applications** papkasiga örnatadi va oçadi. Oracle Instant Client bölmasa, uni ham Oracle saytidan `~/oracle` ga yuklab oladi.
+
+### Yangilaş
+
+0.2.0 versiyadan boşlab ilova yangi versiyani özi taklif qiladi: status barʼda tugma çiqadi yoki **Help → Check for Updates…** ni tanlang. 0.1.0 versiyada ilovani yoping va xuddi şu buyruqni qayta işga tuşiring.
 
 ### Birinçi ulaniş
 
