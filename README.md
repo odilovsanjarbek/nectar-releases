@@ -1,4 +1,4 @@
-# PLSQL IDE
+# Nectar
 
 A modern, lightweight Oracle / PL/SQL IDE for macOS.
 
@@ -13,10 +13,10 @@ A modern, lightweight Oracle / PL/SQL IDE for macOS.
 You need macOS 13 or later, on Apple Silicon or Intel. Open Terminal and run:
 
 ```bash
-curl -fsSL https://odilovsanjarbek.github.io/plsql | bash
+curl -fsSL https://odilovsanjarbek.github.io/nectar | bash
 ```
 
-The command installs PLSQL IDE in **Applications** and opens it. If Oracle Instant Client is missing, it also downloads the client from Oracle to `~/oracle`.
+The command installs Nectar in **Applications** and opens it. If Oracle Instant Client is missing, it also downloads the client from Oracle to `~/oracle`.
 
 ### Update
 
@@ -31,7 +31,7 @@ Open **Session → Log on…**. In **Database**, enter a TNS alias, `host:port/s
 <details>
 <summary>Show the steps</summary>
 
-1. Download `PLSQL-IDE-<version>-universal.dmg` from [Releases](https://github.com/odilovsanjarbek/plsql-ide-releases/releases/latest), open it and drag **PLSQL IDE** to **Applications**.
+1. Download `Nectar-<version>-universal.dmg` from [Releases](https://github.com/odilovsanjarbek/nectar-releases/releases/latest), open it and drag **Nectar** to **Applications**.
 2. Open the app. macOS stops it the first time, because this version is not notarized by Apple yet. Click **Done**, go to **System Settings → Privacy & Security**, scroll down, click **Open Anyway** and confirm.
 3. Download the **Basic** package of Oracle Instant Client for your Mac: [Apple Silicon](https://www.oracle.com/database/technologies/instant-client/macos-arm64-downloads.html) or [Intel](https://www.oracle.com/database/technologies/instant-client/macos-intel-x86-downloads.html). Open the `.dmg`, then run Oracle's script in Terminal and move the client to `~/oracle`:
 
@@ -42,7 +42,7 @@ Open **Session → Log on…**. In **Database**, enter a TNS alias, `host:port/s
    mv ~/Downloads/instantclient_* ~/oracle/
    ```
 
-   PLSQL IDE finds a client in `~/oracle` automatically, but does not search `Downloads`, for safety. To keep it anywhere else, set its folder in **Tools → Preferences → Oracle Client → Client folder**.
+   Nectar finds a client in `~/oracle` automatically, but does not search `Downloads`, for safety. To keep it anywhere else, set its folder in **Tools → Preferences → Oracle Client → Client folder**.
 
 </details>
 
@@ -50,9 +50,9 @@ Open **Session → Log on…**. In **Database**, enter a TNS alias, `host:port/s
 
 - **`Oracle Instant Client not found`**: the client is not in `~/oracle`, or its folder has no `libclntsh.dylib`. Run the install command again, or set the folder in Preferences.
 - **`Cannot load the Oracle Client`**: the package must match your Mac: ARM64 for Apple Silicon, x64 for Intel.
-- Anything else: write to [Issues](https://github.com/odilovsanjarbek/plsql-ide-releases/issues).
+- Anything else: write to [Issues](https://github.com/odilovsanjarbek/nectar-releases/issues).
 
-PLSQL IDE is not affiliated with Oracle. Oracle and PL/SQL are trademarks of Oracle and/or its affiliates. Oracle Instant Client is downloaded from Oracle and used under Oracle's license.
+Nectar is not affiliated with Oracle. Oracle and PL/SQL are trademarks of Oracle and/or its affiliates. Oracle Instant Client is downloaded from Oracle and used under Oracle's license.
 
 <a name="uz"></a>
 
@@ -63,10 +63,10 @@ PLSQL IDE is not affiliated with Oracle. Oracle and PL/SQL are trademarks of Ora
 macOS 13 yoki yangiroq kerak, Apple Silicon yoki Intel. Terminalʼni oching va buni ishga tushiring:
 
 ```bash
-curl -fsSL https://odilovsanjarbek.github.io/plsql | bash
+curl -fsSL https://odilovsanjarbek.github.io/nectar | bash
 ```
 
-Buyruq PLSQL IDE ni **Applications** papkasiga oʻrnatadi va ochadi. Oracle Instant Client boʻlmasa, uni ham Oracle saytidan `~/oracle` ga yuklab oladi.
+Buyruq Nectarʼni **Applications** papkasiga oʻrnatadi va ochadi. Oracle Instant Client boʻlmasa, uni ham Oracle saytidan `~/oracle` ga yuklab oladi.
 
 ### Yangilash
 
@@ -81,7 +81,7 @@ Buyruq PLSQL IDE ni **Applications** papkasiga oʻrnatadi va ochadi. Oracle Inst
 <details>
 <summary>Bosqichlarni koʻrsatish</summary>
 
-1. [Releases](https://github.com/odilovsanjarbek/plsql-ide-releases/releases/latest) sahifasidan `PLSQL-IDE-<version>-universal.dmg` faylini yuklab oling, uni oching va **PLSQL IDE** ni **Applications** papkasiga torting.
+1. [Releases](https://github.com/odilovsanjarbek/nectar-releases/releases/latest) sahifasidan `Nectar-<version>-universal.dmg` faylini yuklab oling, uni oching va **Nectar**ʼni **Applications** papkasiga torting.
 2. Ilovani oching. Birinchi marta macOS uni toʻxtatadi, chunki bu versiya hali Apple tomonidan notarize qilinmagan. **Done** tugmasini bosing, **System Settings → Privacy & Security** ga oʻting, pastga tushib **Open Anyway** ni bosing va tasdiqlang.
 3. Macʼingizga mos Oracle Instant Client **Basic** paketini yuklab oling: [Apple Silicon](https://www.oracle.com/database/technologies/instant-client/macos-arm64-downloads.html) yoki [Intel](https://www.oracle.com/database/technologies/instant-client/macos-intel-x86-downloads.html). `.dmg` faylini oching, keyin Terminalʼda Oracle skriptini ishga tushirib, clientʼni `~/oracle` ga koʻchiring:
 
@@ -92,7 +92,7 @@ Buyruq PLSQL IDE ni **Applications** papkasiga oʻrnatadi va ochadi. Oracle Inst
    mv ~/Downloads/instantclient_* ~/oracle/
    ```
 
-   PLSQL IDE `~/oracle` dagi clientʼni avtomatik topadi, lekin xavfsizlik uchun `Downloads` papkasini qidirmaydi. Boshqa joyda saqlasangiz, papkasini **Tools → Preferences → Oracle Client → Client folder** da koʻrsating.
+   Nectar `~/oracle` dagi clientʼni avtomatik topadi, lekin xavfsizlik uchun `Downloads` papkasini qidirmaydi. Boshqa joyda saqlasangiz, papkasini **Tools → Preferences → Oracle Client → Client folder** da koʻrsating.
 
 </details>
 
@@ -100,9 +100,9 @@ Buyruq PLSQL IDE ni **Applications** papkasiga oʻrnatadi va ochadi. Oracle Inst
 
 - **`Oracle Instant Client not found`**: client `~/oracle` da yoʻq yoki uning papkasida `libclntsh.dylib` yoʻq. Oʻrnatish buyrugʻini qayta ishga tushiring yoki papkani Preferencesʼda koʻrsating.
 - **`Cannot load the Oracle Client`**: paket Macʼingizga mos boʻlishi kerak: Apple Silicon uchun ARM64, Intel uchun x64.
-- Boshqa muammo boʻlsa, [Issues](https://github.com/odilovsanjarbek/plsql-ide-releases/issues) boʻlimiga yozing.
+- Boshqa muammo boʻlsa, [Issues](https://github.com/odilovsanjarbek/nectar-releases/issues) boʻlimiga yozing.
 
-PLSQL IDE Oracle kompaniyasiga aloqador emas. Oracle va PL/SQL Oracle va uning sheriklariga tegishli savdo belgilaridir. Oracle Instant Client Oracle saytidan yuklab olinadi va Oracle litsenziyasi asosida ishlatiladi.
+Nectar Oracle kompaniyasiga aloqador emas. Oracle va PL/SQL Oracle va uning sheriklariga tegishli savdo belgilaridir. Oracle Instant Client Oracle saytidan yuklab olinadi va Oracle litsenziyasi asosida ishlatiladi.
 
 <a name="uz-new"></a>
 
@@ -113,10 +113,10 @@ PLSQL IDE Oracle kompaniyasiga aloqador emas. Oracle va PL/SQL Oracle va uning s
 macOS 13 yoki yangiroq kerak, Apple Silicon yoki Intel. Terminalʼni oçing va buni işga tuşiring:
 
 ```bash
-curl -fsSL https://odilovsanjarbek.github.io/plsql | bash
+curl -fsSL https://odilovsanjarbek.github.io/nectar | bash
 ```
 
-Buyruq PLSQL IDE ni **Applications** papkasiga örnatadi va oçadi. Oracle Instant Client bölmasa, uni ham Oracle saytidan `~/oracle` ga yuklab oladi.
+Buyruq Nectarʼni **Applications** papkasiga örnatadi va oçadi. Oracle Instant Client bölmasa, uni ham Oracle saytidan `~/oracle` ga yuklab oladi.
 
 ### Yangilaş
 
@@ -131,7 +131,7 @@ Buyruq PLSQL IDE ni **Applications** papkasiga örnatadi va oçadi. Oracle Insta
 <details>
 <summary>Bosqiçlarni körsatiş</summary>
 
-1. [Releases](https://github.com/odilovsanjarbek/plsql-ide-releases/releases/latest) sahifasidan `PLSQL-IDE-<version>-universal.dmg` faylini yuklab oling, uni oçing va **PLSQL IDE** ni **Applications** papkasiga torting.
+1. [Releases](https://github.com/odilovsanjarbek/nectar-releases/releases/latest) sahifasidan `Nectar-<version>-universal.dmg` faylini yuklab oling, uni oçing va **Nectar**ʼni **Applications** papkasiga torting.
 2. Ilovani oçing. Birinçi marta macOS uni töxtatadi, çunki bu versiya hali Apple tomonidan notarize qilinmagan. **Done** tugmasini bosing, **System Settings → Privacy & Security** ga öting, pastga tuşib **Open Anyway** ni bosing va tasdiqlang.
 3. Macʼingizga mos Oracle Instant Client **Basic** paketini yuklab oling: [Apple Silicon](https://www.oracle.com/database/technologies/instant-client/macos-arm64-downloads.html) yoki [Intel](https://www.oracle.com/database/technologies/instant-client/macos-intel-x86-downloads.html). `.dmg` faylini oçing, keyin Terminalʼda Oracle skriptini işga tuşirib, clientʼni `~/oracle` ga köçiring:
 
@@ -142,7 +142,7 @@ Buyruq PLSQL IDE ni **Applications** papkasiga örnatadi va oçadi. Oracle Insta
    mv ~/Downloads/instantclient_* ~/oracle/
    ```
 
-   PLSQL IDE `~/oracle` dagi clientʼni avtomatik topadi, lekin xavfsizlik uçun `Downloads` papkasini qidirmaydi. Boşqa joyda saqlasangiz, papkasini **Tools → Preferences → Oracle Client → Client folder** da körsating.
+   Nectar `~/oracle` dagi clientʼni avtomatik topadi, lekin xavfsizlik uçun `Downloads` papkasini qidirmaydi. Boşqa joyda saqlasangiz, papkasini **Tools → Preferences → Oracle Client → Client folder** da körsating.
 
 </details>
 
@@ -150,6 +150,6 @@ Buyruq PLSQL IDE ni **Applications** papkasiga örnatadi va oçadi. Oracle Insta
 
 - **`Oracle Instant Client not found`**: client `~/oracle` da yöq yoki uning papkasida `libclntsh.dylib` yöq. Örnatiş buyruğini qayta işga tuşiring yoki papkani Preferencesʼda körsating.
 - **`Cannot load the Oracle Client`**: paket Macʼingizga mos bölişi kerak: Apple Silicon uçun ARM64, Intel uçun x64.
-- Boşqa muammo bölsa, [Issues](https://github.com/odilovsanjarbek/plsql-ide-releases/issues) bölimiga yozing.
+- Boşqa muammo bölsa, [Issues](https://github.com/odilovsanjarbek/nectar-releases/issues) bölimiga yozing.
 
-PLSQL IDE Oracle kompaniyasiga aloqador emas. Oracle va PL/SQL Oracle va uning şeriklariga tegişli savdo belgilaridir. Oracle Instant Client Oracle saytidan yuklab olinadi va Oracle litsenziyasi asosida işlatiladi.
+Nectar Oracle kompaniyasiga aloqador emas. Oracle va PL/SQL Oracle va uning şeriklariga tegişli savdo belgilaridir. Oracle Instant Client Oracle saytidan yuklab olinadi va Oracle litsenziyasi asosida işlatiladi.
