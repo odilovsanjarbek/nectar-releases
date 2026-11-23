@@ -1,6 +1,6 @@
 # Nectar
 
-A modern, lightweight Oracle / PL/SQL IDE for macOS.
+A modern, lightweight Oracle / PL/SQL IDE for macOS and Windows.
 
 [English](#en) · [Oʻzbekcha](#uz) · [Özbekça](#uz-new)
 
@@ -17,6 +17,16 @@ curl -fsSL https://odilovsanjarbek.github.io/nectar | bash
 ```
 
 The command installs Nectar in **Applications** and opens it. If Oracle Instant Client is missing, it also downloads the client from Oracle to `~/oracle`.
+
+### Windows
+
+You need Windows 10 or 11 (x64; on ARM it runs under emulation) and an Oracle Client: Instant Client x64, or the client PL/SQL Developer already uses (11.2 or later). Open **PowerShell** and run:
+
+```powershell
+irm https://raw.githubusercontent.com/odilovsanjarbek/nectar-releases/main/install.ps1 | iex
+```
+
+The command installs Nectar for your user (no administrator rights) and opens it. If no Oracle Client is found, it also downloads Instant Client from Oracle to `%USERPROFILE%\oracle` and adds it to your PATH. By hand: download `Nectar_<version>_x64-setup.exe` from [Releases](https://github.com/odilovsanjarbek/nectar-releases/releases/latest) and run it; Windows warns the first time, because this version is not signed yet: click **More info → Run anyway**. Updates come the same way as on the Mac.
 
 ### Update
 
@@ -68,6 +78,16 @@ curl -fsSL https://odilovsanjarbek.github.io/nectar | bash
 
 Buyruq Nectarʼni **Applications** papkasiga oʻrnatadi va ochadi. Oracle Instant Client boʻlmasa, uni ham Oracle saytidan `~/oracle` ga yuklab oladi.
 
+### Windows
+
+Windows 10 yoki 11 (x64; ARMʼda emulyatsiyada ishlaydi) va Oracle Client kerak: Instant Client x64 yoki PL/SQL Developer ishlatayotgan client (11.2 yoki yangiroq). **PowerShell**ʼni oching va buni ishga tushiring:
+
+```powershell
+irm https://raw.githubusercontent.com/odilovsanjarbek/nectar-releases/main/install.ps1 | iex
+```
+
+Buyruq Nectarʼni foydalanuvchingiz uchun (administrator huquqisiz) oʻrnatadi va ochadi. Oracle Client topilmasa, Instant Clientʼni Oracleʼdan `%USERPROFILE%\oracle` ga yuklab, PATHʼga qoʻshadi. Qoʻlda: [Releases](https://github.com/odilovsanjarbek/nectar-releases/releases/latest)dan `Nectar_<versiya>_x64-setup.exe` ni yuklab, ishga tushiring; bu versiya hali imzolanmagani uchun Windows birinchi marta ogohlantiradi: **More info → Run anyway** ni bosing. Yangilanishlar Macʼdagidek keladi.
+
 ### Yangilash
 
 0.2.0 versiyadan boshlab ilova yangi versiyani oʻzi taklif qiladi: status barʼda tugma chiqadi yoki **Help → Check for Updates…** ni tanlang. 0.1.0 versiyada ilovani yoping va xuddi shu buyruqni qayta ishga tushiring.
@@ -117,6 +137,16 @@ curl -fsSL https://odilovsanjarbek.github.io/nectar | bash
 ```
 
 Buyruq Nectarʼni **Applications** papkasiga örnatadi va oçadi. Oracle Instant Client bölmasa, uni ham Oracle saytidan `~/oracle` ga yuklab oladi.
+
+### Windows
+
+Windows 10 yoki 11 (x64; ARMʼda emulyatsiyada işlaydi) va Oracle Client kerak: Instant Client x64 yoki PL/SQL Developer işlatayotgan client (11.2 yoki yangiroq). **PowerShell**ʼni oçing va buni işga tuşiring:
+
+```powershell
+irm https://raw.githubusercontent.com/odilovsanjarbek/nectar-releases/main/install.ps1 | iex
+```
+
+Buyruq Nectarʼni foydalanuvçingiz uçun (administrator huquqisiz) örnatadi va oçadi. Oracle Client topilmasa, Instant Clientʼni Oracleʼdan `%USERPROFILE%\oracle` ga yuklab, PATHʼga qöşadi. Qölda: [Releases](https://github.com/odilovsanjarbek/nectar-releases/releases/latest)dan `Nectar_<versiya>_x64-setup.exe` ni yuklab, işga tuşiring; bu versiya hali imzolanmagani uçun Windows birinçi marta ogohlantiradi: **More info → Run anyway** ni bosing. Yangilanişlar Macʼdagidek keladi.
 
 ### Yangilaş
 
