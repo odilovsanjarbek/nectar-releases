@@ -30,7 +30,7 @@ The command installs Nectar for your user (no administrator rights) and opens it
 
 ### Update
 
-From version 0.2.0 the app offers new versions itself: a button appears in the status bar, or choose **Help → Check for Updates…**. On version 0.1.0, close the app and run the same command again.
+From version 0.2.0 the app offers new versions itself: a button appears in the status bar, or choose **Help → Check for Updates…**. You can also update from Terminal or PowerShell with the same install command: it closes Nectar, installs the newer version and opens it again, and downloads nothing when Nectar is already the latest. On version 0.1.0 this is the only way.
 
 ### First logon
 
@@ -90,7 +90,7 @@ Buyruq Nectarʼni foydalanuvchingiz uchun (administrator huquqisiz) oʻrnatadi v
 
 ### Yangilash
 
-0.2.0 versiyadan boshlab ilova yangi versiyani oʻzi taklif qiladi: status barʼda tugma chiqadi yoki **Help → Check for Updates…** ni tanlang. 0.1.0 versiyada ilovani yoping va xuddi shu buyruqni qayta ishga tushiring.
+0.2.0 versiyadan boshlab ilova yangi versiyani oʻzi taklif qiladi: status barʼda tugma chiqadi yoki **Help → Check for Updates…** ni tanlang. Terminal yoki PowerShellʼda xuddi shu oʻrnatish buyrugʻi bilan ham yangilash mumkin: u Nectarʼni yopadi, yangi versiyani oʻrnatadi va qayta ochadi, Nectar eng soʻnggi versiyada boʻlsa, hech narsa yuklamaydi. 0.1.0 versiyada faqat shu yoʻl bor.
 
 ### Birinchi ulanish
 
@@ -150,7 +150,7 @@ Buyruq Nectarʼni foydalanuvçingiz uçun (administrator huquqisiz) örnatadi va
 
 ### Yangilaş
 
-0.2.0 versiyadan boşlab ilova yangi versiyani özi taklif qiladi: status barʼda tugma çiqadi yoki **Help → Check for Updates…** ni tanlang. 0.1.0 versiyada ilovani yoping va xuddi şu buyruqni qayta işga tuşiring.
+0.2.0 versiyadan boşlab ilova yangi versiyani özi taklif qiladi: status barʼda tugma çiqadi yoki **Help → Check for Updates…** ni tanlang. Terminal yoki PowerShellʼda xuddi şu örnatiş buyruği bilan ham yangilaş mumkin: u Nectarʼni yopadi, yangi versiyani örnatadi va qayta oçadi, Nectar eng sönggi versiyada bölsa, heç narsa yuklamaydi. 0.1.0 versiyada faqat şu yöl bor.
 
 ### Birinçi ulaniş
 
